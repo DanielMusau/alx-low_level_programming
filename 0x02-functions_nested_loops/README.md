@@ -33,4 +33,4 @@ Prints the 9 times table,starting with 0
 Adds two integers and returns the result.
 
 ## 11-print_to_98.c
-Prints all natural numbers from `n`to `98`.
+Prints all natural numbers from `n` to `98`.
