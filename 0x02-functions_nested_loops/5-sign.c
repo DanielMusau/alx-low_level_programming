@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_sign - Determines if the input number is greaer, equal or less than zero.
+ * print_sign - Prints the sign of a number.
  *
  * @n: The input number as an integer.
  *
