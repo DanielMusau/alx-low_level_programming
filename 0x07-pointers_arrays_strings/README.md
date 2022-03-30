@@ -12,4 +12,4 @@ All the following files are programs written in C:
 | `4-strpbrk.c` | Searches a string for any of a set of bytes. |
 | `5-strstr.c` | Locates a substring. |
 | `7-print_chessboard.c` | Prints the chessboard. |
-| `*-print_diagsums.c` | Prints the sum of the two diagonals of a square matrix of integers. |
+| `8-print_diagsums.c` | Prints the sum of the two diagonals of a square matrix of integers. |
