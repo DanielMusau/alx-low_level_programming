@@ -9,10 +9,10 @@
  */
 size_t listint_len(const listint_t *h)
 {
-	int count = 0;
+	unsigned int count = 0;
 
 	if (h == NULL)
-		printf("The list is empty");
+		return (0);
 
 	while (h != NULL)
 	{
