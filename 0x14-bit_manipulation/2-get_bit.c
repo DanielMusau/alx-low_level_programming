@@ -5,7 +5,7 @@
  * @n: Number to be converted.
  * @index: is the index starting from 0.
  *
- * Returns: the value of the bit at index or -1 if an error occcured.
+ * Return: the value of the bit at index or -1 if an error occcured.
  */
 int get_bit(unsigned long int n, unsigned int index)
 {
