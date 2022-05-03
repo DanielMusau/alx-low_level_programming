@@ -10,6 +10,8 @@
 int create_file(const char *filename, char *text_content)
 {
 	int file;
+	int nlett;
+	int fwrite;
 
 	if (filename == NULL)
 		return (-1);
@@ -20,7 +22,15 @@ int create_file(const char *filename, char *text_content)
 		return (-1);
 
 	if (text_content == NULL)
-		file = open(filename, O_CREAT | O_WRONLY, 0600);
+		text_content = "";
+
+	for (nlett = 0; text_content[nlett]; nlett++)
+		;
+
+	fwrite = write(file, text_content, nlett);
+
+	if (fwrite == -1)
+		return (-1);
 
 	close(file);
 
