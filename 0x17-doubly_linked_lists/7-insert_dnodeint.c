@@ -4,6 +4,7 @@
  * insert_dnodeint_at_index - Insert a new node at a given position.
  * @h: Head of the list
  * @idx: is the index of the list where the new node should be added.
+ * @n: data to be stored in node.
  *
  * Return: The address of the new node or NULL if it failed.
  */
