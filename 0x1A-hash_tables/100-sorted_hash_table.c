@@ -184,7 +184,7 @@ char *shash_table_get(const shash_table_t *ht, const char *key)
 }
 
 /**
- * shash_tabe_delet - deletes a shash table.
+ * shash_table_delete - deletes a shash table.
  *
  * @ht: pointer to the shash table.
  * Return: no return.
